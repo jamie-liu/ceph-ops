@@ -1,0 +1,2 @@
+## perf dump every minute
+*/1 * * * * cd /root/ceph_ops/ && sh ./perf_ceph.sh > /dev/null 2>&1
